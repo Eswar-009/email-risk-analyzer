@@ -1,0 +1,10 @@
+From: "Account Security" <security@example.com>
+Return-Path: <mailer@different.example>
+To: user@example.com
+Subject: URGENT: Verify your account immediately
+Received-SPF: fail (example.com: sender not permitted)
+Authentication-Results: example.com; spf=fail; dkim=fail; dmarc=fail
+Content-Type: text/plain; charset="utf-8"
+
+URGENT! Your account is suspended. Verify now and confirm your identity immediately.
+https://login.example.com/verify
